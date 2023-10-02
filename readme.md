@@ -14,5 +14,43 @@ Sales ERP is a Modern and responsive small business management system. Developed
 ![login](https://user-images.githubusercontent.com/25568503/65634125-5fe4de80-dfff-11e9-9639-18255ce948b1.png)
 
 
+## Installation and Usage Guide
+
+Follow these steps to set up the Sales ERP Laravel project on your local machine:
+
+1. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/naufalrandika/ERPLaravel.git
+
+2. **Navigate to the Project Directory:**
+   ```bash
+   cd ERPLaravel
+
+3. **Install Dependencies:**
+   ```bash
+   composer install
+
+4. **Make Database:**
+   Open on browser ***https://localhost/phpmyadmin***
+   , Create New Database dan Name it
+   ```laravel
+   laravel
+
+4. **Run Migrations:**
+   ```bash
+   php artisan migrate:fresh
+
+5. **Seed the Database:**
+   ```bash
+   php artisan db:seed
+
+6. **Generate Application Key:**
+   ```bash
+   php artisan key:generate
+
+1. **Start the Development Server:**
+   ```bash
+   php artisan serve
+
 
 
