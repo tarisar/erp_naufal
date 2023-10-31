@@ -13,8 +13,8 @@
         <style>
             html, body {
                 background-color: #fff;
-                color: #636b6f;
-                font-family: 'Nunito', sans-serif;
+                color: #6c8696;
+                font-family: 'Nunito', Time New Roman;
                 font-weight: 200;
                 height: 100vh;
                 margin: 0;
